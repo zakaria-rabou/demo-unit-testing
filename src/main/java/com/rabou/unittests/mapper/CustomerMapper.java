@@ -22,7 +22,7 @@ public class CustomerMapper {
         return modelMapper.map(customerDTO, Customer.class);
     }
 
-    List<CustomerDTO> fromCustomersList(List<Customer> customers){
+    public List<CustomerDTO> fromCustomersList(List<Customer> customers){
         return customers
             .stream()
             .map((customer)-> modelMapper.map(customer, CustomerDTO.class))
