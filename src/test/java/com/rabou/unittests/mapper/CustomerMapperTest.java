@@ -2,7 +2,6 @@ package com.rabou.unittests.mapper;
 
 import com.rabou.unittests.dto.CustomerDTO;
 import com.rabou.unittests.entities.Customer;
-import org.assertj.core.api.AssertionsForClassTypes;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;

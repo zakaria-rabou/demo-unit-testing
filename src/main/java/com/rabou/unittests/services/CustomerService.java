@@ -1,7 +1,6 @@
 package com.rabou.unittests.services;
 
 import com.rabou.unittests.dto.CustomerDTO;
-import com.rabou.unittests.entities.Customer;
 import com.rabou.unittests.exceptions.CustomerNotFoundException;
 import com.rabou.unittests.exceptions.EmailAlreadyExistsException;
 
